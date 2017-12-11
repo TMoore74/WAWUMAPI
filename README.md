@@ -1,6 +1,6 @@
 # Wrapper na API api.um.warszawa.pl
 
-Trzeba skonfigurować tablice API_PARAM swoim APIKEY, podaniem przystanków
+Trzeba skonfigurować tablice API_PARAM swoim APIKEY i podaniem danych przystanków
 
 ## Jak pobrać ID przystanku
 
@@ -14,6 +14,9 @@ https://api.um.warszawa.pl/api/action/dbtimetable_get?id=88cd555f-6f31-43ca-9de4
 
 
 ## Przykład wykorzystania
+
+Przystanek Siekierkowska **3072**, w obie strony **01 i 02** dla linii **167 i 108**
+
 ```
   lines = [167,108]
   busstop = ["01","02"]

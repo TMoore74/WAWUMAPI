@@ -13,15 +13,14 @@ def getBusStopTimeSeries(ile_do_przodu=3):
     # pobranie czasu
     TIME = time.strftime("%H"),time.strftime("%M")
     czas = []
+    print "Autobus %s -> %s" % (API_PARAM["LINE"], data["result"][0]["values"][3]["value"])
     for item in data["result"]:
         # wciagniecie czasu na tablice
         czas=item["values"][5]["value"].split(":")
+        
         if ile_do_przodu > 0:
             if int(czas[0]) >= int(TIME[0]):
                 if int(czas[1]) >= int(TIME[1]):
                     print "%s:%s" %(czas[0],czas[1])
                     ile_do_przodu-=1
-    
-    
 
-getBusStopTimeSeries()

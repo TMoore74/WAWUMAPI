@@ -25,5 +25,5 @@ Przystanek Siekierkowska **3072**, w obie strony **01 i 02** dla linii **167 i 1
       API_PARAM["LINE"] = line
       for bstop in busstop:
           API_PARAM["BUSID"] = bstop
-          getBusStopTimeSeries()
+          print getBusStopTimeSeries()
   ```

@@ -7,7 +7,7 @@ https://api.um.warszawa.pl/#
 
 ## Jak pobrać ID przystanku - parametr busstop
 
-https://api.um.warszawa.pl/api/action/dbtimetable_get?id=b27f4c17-5c50-4a5b-89dd-236b282bc499&name=**Siekierkowska**&apikey=APIKEY
+https://api.um.warszawa.pl/api/action/dbtimetable_get?id=b27f4c17-5c50-4a5b-89dd-236b282bc499&name=Siekierkowska&apikey=APIKEY
 
 Podając nazwę przystanku, jak są polskie znaki trzeba je zakodować
 

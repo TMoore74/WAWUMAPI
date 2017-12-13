@@ -1,6 +1,9 @@
 # Wrapper na API api.um.warszawa.pl
 
-Trzeba skonfigurować tablice API_PARAM swoim APIKEY i podaniem danych przystanków
+Trzeba skonfigurować tablice API_PARAM swoim APIKEY i podaniem danych przystanków.
+Potrzebne dane można uzyskać po zarejestrowaniu się na stronie:
+
+https://api.um.warszawa.pl/#
 
 ## Jak pobrać ID przystanku
 
